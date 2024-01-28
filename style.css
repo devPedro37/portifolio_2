@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Inicio do HEADER*/
+header{
+    background-color: #181818;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 7;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.nav-list a{
+    padding: 20px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.nav-list a:hover{
+    color: white;
+}
+
+header .logo-img{
+    margin-left: 50px;
+}
+/*Fim do HEADER*/
+
+/*Inicio da MAIN*/
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    width: 100%;
+    height: calc(100vh - 80px);
+    color: white;
+    background-color: black;
+    background-image: url(images/programador.png);
+    background-size: cover;
+}
+
+.main h1{
+    color: white;
+    font-size: 54px;
+}
+
+.main p{
+    font-size: 24px;
+    font-style: italic;
+    color: #1E96F6;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.btn-main{
+    padding: 14px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.btn-main:hover{
+    transform: scale(1.1);
+
+}
+
+.main a{
+    text-decoration: none;
+    color: #181818;
+}
+/*Fim da MAIN*/
+
+/*INICIO DO SOBRE*/
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding: 80px 10%;
+}
+
+.sobre div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.sobre img{
+    width: 450px;
+    border-radius: 50%;
+}
+
+.sobre div h2{
+    margin-bottom: 14px;
+    font-size: 34px;
+}
+/*FIM DO SOBRE*/
+
+/*INICIO DOS MEUS PROJETOS*/
+
+.projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.projetos h2{
+    font-size: 32px;
+    margin-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+
+.projetos p{
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.imagens-projetos{
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos img{
+    width: 22%;
+    margin:  0px 0.5%;
+    opacity: 0.8;
+    transition: 0.7s;
+}
+
+.projetos img:hover{
+    opacity: 1;
+}
+
+.orçamento{
+    margin-top: 18px;
+    padding: 12px 24px;
+    background-color: #181818;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*FIM DOS MEUS PROJETOS*/
+
+/*INICIO FOOTER*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #181818;
+    color: white;
+}
+
+footer p{
+    margin-left: 8px;
+}
