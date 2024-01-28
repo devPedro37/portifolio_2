@@ -9,6 +9,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*Inicio do HEADER*/
 header{
     background-color: #181818;
@@ -187,3 +191,7 @@ footer{
 footer p{
     margin-left: 8px;
 }
+
+/*FIM DO FOOTER*/
+
+
