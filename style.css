@@ -191,7 +191,51 @@ footer{
 footer p{
     margin-left: 8px;
 }
-
 /*FIM DO FOOTER*/
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1050px){
+
+    /*INICIO DA MAIN*/
+
+    .main h1{
+        font-size: 45px;
+    }
+
+    .main p{
+        font-size: 18px;
+    }
+
+    .main img{
+        background-size: cover;
+    }
+
+    /*FIM DA MAIN*/
+
+    /*INICIO DO SOBRE*/
+
+    .sobre{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .sobre div{
+        max-width: 80%;
+    }
+
+    .sobre h2{
+        font-size: 45px;
+    }
+
+    .sobre img{
+        width: 300px;
+        margin-top: 30px;
+    }
+    /*DIM DO SOBRE*/
+}
 
 
