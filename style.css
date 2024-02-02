@@ -208,7 +208,9 @@ footer p{
     }
 
     .main img{
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: calc(100vh - 400px);
     }
 
     /*FIM DA MAIN*/
@@ -235,7 +237,59 @@ footer p{
         width: 300px;
         margin-top: 30px;
     }
-    /*DIM DO SOBRE*/
+    /*FIM DO SOBRE*/
+
+    .projetos img{
+        width: 27.5%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer h3{
+        margin-bottom: 8px;
+    }
+}
+
+
+    @media (max-width: 458px){
+
+    header nav {
+        padding: 0 40px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header img{
+        display: none;
+    }
+
+    .main h1{
+        font-size: 35px;
+    }
+        
+    /*INICIO DO SECTION MAIN*/
+    .main{
+        background-image: url(images/programador.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: calc(100vh - 400px);
+    }
+
+    .main .btn-main{
+        width: 50%;
+        font-size: 13px;
+    }
+
+    .imagens-projetos{
+        flex-direction: column;
+    }
+
+    .imagens-projetos img{
+        width: 50%;
+        padding: 1px;
+    }
 }
 
 
